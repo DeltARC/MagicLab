@@ -168,4 +168,9 @@ public class PlayerMovement : MonoBehaviour
  
         gravity = newGravity;
     }
+
+    public void SetSpeed(float newSpeed)
+    {
+        playerSpeed = newSpeed;
+    }
 }
