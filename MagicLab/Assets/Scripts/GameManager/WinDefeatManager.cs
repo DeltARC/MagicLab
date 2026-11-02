@@ -39,4 +39,10 @@ public class WinDefeatManager : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void BonusLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        Time.timeScale = 1f;
+    }
 }
