@@ -12,6 +12,7 @@ Material:
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _DETAIL_MULX2
   - _EMISSION
   m_InvalidKeywords: []
   m_LightmapFlags: 2
@@ -36,14 +37,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
+        m_Scale: {x: 5, y: 5}
         m_Offset: {x: 0, y: 0}
     - _DetailMask:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailNormalMap:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: 733ce429a7005ab47aa509ba2637e9c3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -119,7 +120,7 @@ Material:
     m_Colors:
     - _BaseColor: {r: 0, g: 1, b: 0.5590787, a: 1}
     - _Color: {r: 0, g: 1, b: 0.5590787, a: 1}
-    - _EmissionColor: {r: 0, g: 0.0018343296, b: 0.1509434, a: 1}
+    - _EmissionColor: {r: 0, g: 0.047169805, b: 0.00080239086, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
